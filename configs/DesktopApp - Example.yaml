@@ -1,0 +1,9 @@
+---
+gcpProjectId: "<project id>"
+saAccountName: "sa-gcs-reader"
+accessTokenPath: "<token path>\\sa-gcs-reader.json"
+gcsBucket: "<GCS Bucket without gs://>"
+gcsObjectPath: "<object path within bucket>/<object name>"
+timeoutInMins: 15
+signingServiceAccountID: "<SA Name>@<project id>.iam.gserviceaccount.com"
+appName: "com.test.gcp.GCS_Signed_URL_With_Addtional_Headers/0.1"
